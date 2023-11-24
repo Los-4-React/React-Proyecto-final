@@ -14,4 +14,4 @@ export const FilaDeTareas = ({tarea, alternarTarea}) => {
     )
 }
 
-export default FilaDeTareas;
+

@@ -1,4 +1,4 @@
-import { FilaDeTareas } from "./FilaDeTareas";
+import { FilaDeTareas } from "./FilasDeTareas";
 
 
 export const TablaDeTareas = ({tareas, alternarTarea, showCompleted = false}) => {

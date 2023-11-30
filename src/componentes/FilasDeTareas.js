@@ -10,7 +10,7 @@ export const FilaDeTareas = ({tarea, alternarTarea}) => {
                     onChange={() => alternarTarea(tarea)}
                 />
             </td>
-        </tr>
+       </tr>
     )
 }
 

@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/rules-of-hooks */
+import './CreadorDeTareas.css';
 import { useState } from "react";
 
 
@@ -23,7 +23,7 @@ export function CreadorDeTareas({crearTarea}) {
                 value={newTareaNombre}
                 onChange={(e) => setNewTareaNombre(e.target.value)} />
                 {" "}
-            <button>Guardar</button>
+            <button>Agregar</button>
         </form>
     );
 }

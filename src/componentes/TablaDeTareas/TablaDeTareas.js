@@ -1,4 +1,5 @@
-import { FilaDeTareas } from "./FilasDeTareas";
+import { FilaDeTareas } from "../FilaDeTareas/FilasDeTareas";
+import './TablaDeTareas.css';
 
 
 export const TablaDeTareas = ({tareas, alternarTarea, showCompleted = false}) => {
